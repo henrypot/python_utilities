@@ -1,0 +1,1652 @@
+{
+    "needBuckets": [
+        {
+            "bucketCode": "MAIN",
+            "bucketText": "Make sure money is available when something happens to me",
+            "sequence": 1,
+            "questionMap": []
+        },
+        {
+            "bucketCode": "FUNERAL",
+            "bucketText": "Have enough money for the funerals I am responsible for",
+            "sequence": 2,
+            "questionMap": []
+        },
+        {
+            "bucketCode": "ADDITIONAL",
+            "bucketText": "Additional Needs",
+            "sequence": 3,
+            "questionMap": []
+        }
+    ],
+    "benefitSet": [],
+    "needs": [
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPDTHSL",
+                    "externalReference": "DTHSL",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QAD",
+                    "answer": false,
+                    "isSelected": true
+                },
+                {
+                    "benefitSetExtRef": "OMPAD",
+                    "externalReference": "AD",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QAD",
+                    "answer": true,
+                    "isSelected": false
+                }
+            ],
+            "questionMap": [
+                "QTRMCOV",
+                "QAD"
+            ],
+            "uuid": "SOLRECO479e0e19-38d5-d6d7-c5e5-a5d5ee0bb3e8",
+            "needCode": "DEATHLS_NEED",
+            "needText": "Death",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "MAIN",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPDTHI",
+                    "externalReference": "DTHI",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QDUMMY",
+                    "answer": false,
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [],
+            "uuid": "SOLRECO330e57cc-8b76-cb7f-58f5-59d022efe1b3",
+            "needCode": "DEATHINC_NEED",
+            "needText": "Death Income",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "MAIN",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPOCCDIS",
+                    "externalReference": "OCCDIS",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QDISACCL",
+                    "answer": false,
+                    "isSelected": true
+                },
+                {
+                    "benefitSetExtRef": "OMPDTHSL",
+                    "externalReference": "OCCDIS",
+                    "benefitType": "ACCL",
+                    "quesCode": "QDISACCL",
+                    "answer": true,
+                    "isSelected": false
+                },
+                {
+                    "benefitSetExtRef": "OMPFIL",
+                    "externalReference": "FIL",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QFIL",
+                    "answer": true,
+                    "isSelected": false
+                },
+                {
+                    "benefitSetExtRef": "OMPDTHSL",
+                    "externalReference": "FIL",
+                    "benefitType": "ACCL",
+                    "quesCode": "QFIL",
+                    "answer": true,
+                    "isSelected": false
+                },
+                {
+                    "benefitSetExtRef": "OMPPI",
+                    "externalReference": "PI",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QPI",
+                    "answer": true,
+                    "isSelected": false
+                },
+                {
+                    "benefitSetExtRef": "OMPDTHSL",
+                    "externalReference": "PI",
+                    "benefitType": "ACCL",
+                    "quesCode": "QPI",
+                    "answer": true,
+                    "isSelected": false
+                },
+                {
+                    "benefitSetExtRef": "OMPADD",
+                    "externalReference": "ADD",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QADD",
+                    "answer": true,
+                    "isSelected": false
+                }
+            ],
+            "questionMap": [
+                "QDISACCL",
+                "QFIL",
+                "QPI",
+                "QADD"
+            ],
+            "uuid": "SOLRECO2962e4cd-9fc6-1eb3-974a-829580f27762",
+            "needCode": "DISLS_NEED",
+            "needText": "Disability",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "MAIN",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPDI",
+                    "externalReference": "DI",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QFII",
+                    "answer": false,
+                    "isSelected": true
+                },
+                {
+                    "benefitSetExtRef": "OMPFII",
+                    "externalReference": "FII",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QFII",
+                    "answer": true,
+                    "isSelected": false
+                }
+            ],
+            "questionMap": [
+                "QFII"
+            ],
+            "uuid": "SOLRECO70590ee7-a206-9ed7-6895-16178baec91b",
+            "needCode": "DISINC_NEED",
+            "needText": "Disability Income",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "MAIN",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPSI",
+                    "externalReference": "SI",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QSI",
+                    "answer": false,
+                    "isSelected": true
+                },
+                {
+                    "benefitSetExtRef": "OMPDTHSL",
+                    "externalReference": "SI",
+                    "benefitType": "ACCL",
+                    "quesCode": "QSI",
+                    "answer": true,
+                    "isSelected": false
+                }
+            ],
+            "questionMap": [
+                "QSI"
+            ],
+            "uuid": "SOLRECOd98783d8-3006-33f0-fe23-84fe4f8f770a",
+            "needCode": "SEVILL_NEED",
+            "needText": "Severe Illness",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "MAIN",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPRETR",
+                    "externalReference": "RETR",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QRETR",
+                    "answer": true,
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [
+                "QRETR"
+            ],
+            "uuid": "SOLRECO808adf76-c2f3-07db-11f1-840be611c1ab",
+            "needCode": "RETR_NEED",
+            "needText": "Retrenchment",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "ADDITIONAL",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPFUTC",
+                    "externalReference": "FUTC",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QFUTC",
+                    "answer": true,
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [
+                "QFUTC"
+            ],
+            "uuid": "SOLRECO5d730a93-1827-b5a8-6f74-73dccff86ae3",
+            "needCode": "FUTC_NEED",
+            "needText": "Future Needs",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "ADDITIONAL",
+            "isEditable": true,
+            "isSelected": true,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPDTHJL",
+                    "externalReference": "DTHJL",
+                    "benefitType": "STANDALONE",
+                    "quesCode": "QDTHJL",
+                    "answer": true,
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [
+                "QDTHJL"
+            ],
+            "uuid": "SOLRECO942c76d0-55fc-8a6c-af43-bc549f707ad7",
+            "needCode": "DTHJL_NEED",
+            "needText": "Last Survivor",
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            },
+            "bucketCode": "ADDITIONAL",
+            "isEditable": true,
+            "isSelected": false,
+            "isSaved": false
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPFC",
+                    "externalReference": "FMM",
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [],
+            "uuid": "SOLRECOb8aa0bda-cd5b-8b4b-4591-ced54c56c15f",
+            "needCode": "FUNERAL_NEED",
+            "needText": "Funeral",
+            "bucketCode": "FUNERAL",
+            "isSelected": true,
+            "faceAmount": 10000,
+            "isEditable": true,
+            "partyRelCode": "SLF",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+            }
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPFC",
+                    "externalReference": "FSP1",
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [],
+            "uuid": "SOLRECO1a7b0872-4e86-fe8e-d322-5907bb00f558",
+            "needCode": "FUNERAL_NEED",
+            "needText": "Funeral",
+            "bucketCode": "FUNERAL",
+            "isSelected": true,
+            "faceAmount": 10000,
+            "isEditable": true,
+            "partyRelCode": "SP",
+            "lifeCoveredPartyRef": {
+                "partyId": "__3SueYMALxZHA7TqGOYwX-T07q_iMOyRFhL-JIySQMA0__",
+                "isPartyChanged": false
+            }
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPFC",
+                    "externalReference": "FNCHLD1",
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [],
+            "uuid": "SOLRECOd79d7317-62b2-2761-d631-b969ea66c360",
+            "needCode": "FUNERAL_NEED",
+            "needText": "Funeral",
+            "bucketCode": "FUNERAL",
+            "isSelected": true,
+            "faceAmount": 10000,
+            "isEditable": true,
+            "partyRelCode": "NC",
+            "lifeCoveredPartyRef": {
+                "partyId": "__t-LHBj5EdDcMgafiW52UHf7BBZeyiPCc4deSOQB7ek8__",
+                "isPartyChanged": false
+            }
+        },
+        {
+            "benefitMapList": [
+                {
+                    "benefitSetExtRef": "OMPFC",
+                    "externalReference": "FNCHLD2",
+                    "isSelected": true
+                }
+            ],
+            "questionMap": [],
+            "uuid": "SOLRECOfb9f28f1-188b-1d32-0083-5d47c4a52dda",
+            "needCode": "FUNERAL_NEED",
+            "needText": "Funeral",
+            "bucketCode": "FUNERAL",
+            "isSelected": true,
+            "faceAmount": 10000,
+            "isEditable": true,
+            "partyRelCode": "NC",
+            "lifeCoveredPartyRef": {
+                "partyId": "__jtjCoHXD-uX6ehTje3d2_mrkZwvJyJJn50WUUf995kY__",
+                "isPartyChanged": false
+            }
+        }
+    ],
+    "questionList": [
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want term cover instead of whole-life cover?",
+            "ansType": "Switch",
+            "quesCode": "QTRMCOV",
+            "needCode": "DEATHLS_NEED",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": ""
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "quesText": "How long do you want cover for? ",
+                    "ansType": "Select",
+                    "quesCode": "QTRMCOVYRS",
+                    "needCode": "DEATHLS_NEED",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": "false"
+                    },
+                    "answerOptions": [
+                        {
+                            "ansCode": "5",
+                            "ansValue": "5 Years"
+                        },
+                        {
+                            "ansCode": "10",
+                            "ansValue": "10 Years"
+                        },
+                        {
+                            "ansCode": "15",
+                            "ansValue": "15 Years"
+                        },
+                        {
+                            "ansCode": "20",
+                            "ansValue": "20 Years"
+                        },
+                        {
+                            "ansCode": "25",
+                            "ansValue": "25 Years"
+                        }
+                    ],
+                    "questionList": []
+                },
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QTRMCOV_RECO",
+                    "needCode": "DEATHLS_NEED",
+                    "recoNotePrefix": "You are choosing term cover instead of whole-life cover because  ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ]
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want to address your death lump sum need with cover that only pays out in the event of an accident?",
+            "ansType": "Switch",
+            "quesCode": "QAD",
+            "needCode": "DEATHLS_NEED",
+            "tooltipText": "This cover pays out a lump sum if the insured person dies because of an accident. An accident means an unexpected, external and violent event that could not be stopped and which, on its own, causes your death. ",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": "false"
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QAD_RECO",
+                    "needCode": "DEATHLS_NEED",
+                    "recoNotePrefix": "You are choosing to address your death need with cover that only pays out in the event of an accident because ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ],
+            "isModified": true
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want your cover for death to decrease if you had to claim for a disability?  ",
+            "ansType": "Switch",
+            "quesCode": "QDISACCL",
+            "needCode": "DISLS_NEED",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": ""
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QDISACCL_RECO",
+                    "needCode": "DISLS_NEED",
+                    "recoNotePrefix": "You are choosing that your death cover decrease if there is a claim for a disability because ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ]
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want to address your disability lump sum need with cover that only pays out in the event of specific functional impairments?",
+            "ansType": "Switch",
+            "quesCode": "QFIL",
+            "needCode": "DISLS_NEED",
+            "tooltipText": "This cover pays out a lump sum if the insured person becomes functionally impaired. They must survive for a specific amount of time after becoming functionally impaired and the impairment must be permanent and irreversible. ",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": "false"
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QFIL_RECO",
+                    "needCode": "DISLS_NEED",
+                    "recoNotePrefix": "You are choosing to address your disability need with cover that only pays out for specific functional impairments because  ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ],
+            "isModified": true
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want to address your disability lump sum need with cover that only pays out in the event of specific physical impairments?",
+            "ansType": "Switch",
+            "quesCode": "QPI",
+            "needCode": "DISLS_NEED",
+            "tooltipText": "This cover pays out a lump sum if the insured person is diagnosed with a specific physical impairment. They must survive for a specific amount of time after becoming physically impaired and the impairment must be permanent and irreversible. ",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": "false"
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QPI_RECO",
+                    "needCode": "DISLS_NEED",
+                    "recoNotePrefix": "You are choosing to address your disability need with cover that only pays out for specific physical impairments because  ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ],
+            "isModified": true
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want to address your disability lump sum need with cover that only pays out in the event of an accident?",
+            "ansType": "Switch",
+            "quesCode": "QADD",
+            "needCode": "DISLS_NEED",
+            "tooltipText": "This cover pays out a lump sum if the insured person becomes disabled, physically impaired or dies because of an accident. An accident means an unexpected, external and violent event that could not be stopped and which, on its own, causes your disability, physical impairment or death. ",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": "false"
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QADD_RECO",
+                    "needCode": "DISLS_NEED",
+                    "recoNotePrefix": "You are choosing to address your disability need with cover that only pays out in the event of an accident because  ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ],
+            "isModified": true
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want to address your disability income need with cover that only pays out in the event of specific temporary or permanent functional impairments? ",
+            "ansType": "Switch",
+            "quesCode": "QFII",
+            "needCode": "DISINC_NEED",
+            "tooltipText": "This cover pays out a monthly income if the insured person becomes functionally impaired while they are covered. The functional impairment can be either temporary or permanent, but must last longer than the selected waiting period. ",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": "false"
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QFII_RECO",
+                    "needCode": "DISINC_NEED",
+                    "recoNotePrefix": "You are choosing to address your disability income need with cover that only pays out for specific functional impairments because  ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ],
+            "isModified": true
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want your death cover to decrease if you had to claim for a severe illness?  ",
+            "ansType": "Switch",
+            "quesCode": "QSI",
+            "needCode": "SEVILL_NEED",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": ""
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QSI_RECO",
+                    "needCode": "SEVILL_NEED",
+                    "recoNotePrefix": "You are choosing that your death cover decrease if there is a claim for a severe illness because  ",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ]
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want cover in the event that you are retrenched from your job? ",
+            "ansType": "Switch",
+            "quesCode": "QRETR",
+            "needCode": "RETR_NEED",
+            "tooltipText": "This cover pays out a monthly income, for up to six months, if the insured person is retrenched from their job and is unemployed. ",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": ""
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "quesText": "Monthly cover",
+                    "ansType": "Amount",
+                    "quesCode": "QRETRCOVAMT",
+                    "needCode": "RETR_NEED",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                },
+                {
+                    "screenType": "FNS",
+                    "quesText": "Select a need to link the retrenchment cover to:",
+                    "ansType": "Custom_Retr",
+                    "quesCode": "QRETRBENSET",
+                    "needCode": "RETR_NEED",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                },
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QRETR_RECO",
+                    "needCode": "RETR_NEED",
+                    "recoNotePrefix": "You are choosing not to cover yourself in the event of retrenchment from your job because",
+                    "isSaved": false,
+                    "parentAnswer": false,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ]
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want to apply for more cover in the future, but use your current health status? ",
+            "ansType": "Switch",
+            "quesCode": "QFUTC",
+            "needCode": "FUTC_NEED",
+            "tooltipText": "This cover allows the insured person to apply for more cover in the future, but use their current health status. At the time they apply for more cover, there will be limited underwriting.",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": "false"
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "ansType": "Text",
+                    "quesCode": "QFUTC_RECO",
+                    "needCode": "FUTC_NEED",
+                    "recoNotePrefix": "You are choosing not to cover yourself for future needs because  ",
+                    "isSaved": false,
+                    "parentAnswer": false,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": "Performance Testing Your Financial Need Page Text"
+                    },
+                    "answerOptions": [],
+                    "questionList": [],
+                    "isModified": true
+                },
+                {
+                    "screenType": "FNS",
+                    "quesText": "Cover ",
+                    "ansType": "Amount",
+                    "quesCode": "QFUTCCOVAMT",
+                    "needCode": "FUTC_NEED",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                }
+            ],
+            "isModified": true
+        },
+        {
+            "screenType": "FNS",
+            "quesText": "Do you want cover for estate duty that pays out when the last of either you or your spouse dies? ",
+            "ansType": "Switch",
+            "quesCode": "QDTHJL",
+            "needCode": "DTHJL_NEED",
+            "tooltipText": "This cover pays out a lump sum when the last surviving insured person dies. The purpose of this cover is to pay for estate duty that is due when the last surviving spouse dies.",
+            "isSaved": false,
+            "answer": {
+                "ansCode": "",
+                "ansValue": ""
+            },
+            "answerOptions": [],
+            "questionList": [
+                {
+                    "screenType": "FNS",
+                    "quesText": "Who is the additional insured person? ",
+                    "ansType": "Custom_DTHJL",
+                    "quesCode": "QADDLC",
+                    "needCode": "DTHJL_NEED",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": []
+                },
+                {
+                    "screenType": "FNS",
+                    "quesText": "Do you want to calculate the amount of cover needed? ",
+                    "ansType": "Switch",
+                    "quesCode": "QCALCOV",
+                    "needCode": "DTHJL_NEED",
+                    "tooltipText": "Estate duty is payable on the estate of every person who dies and whose nett estate is in excess of R3.5 million. It is charged at a rate of 20%. The duty is levied on the dutiable value of an estate at a rate of 20% on the first R30 million and at a rate of 25% above R30 million. An abatement of R3.5 million is allowed when calculating an estate's liability for estate duty.",
+                    "isSaved": false,
+                    "parentAnswer": true,
+                    "answer": {
+                        "ansCode": "",
+                        "ansValue": ""
+                    },
+                    "answerOptions": [],
+                    "questionList": [
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Bequest from spouse",
+                            "ansType": "Amount",
+                            "quesCode": "QBEQUEST",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": true,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Cover ",
+                            "ansType": "Amount",
+                            "quesCode": "QDTHJLCOVAMT",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": false,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Assets",
+                            "ansType": "Amount_plus",
+                            "quesCode": "QASSET",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": true,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "ansType": "Text",
+                            "quesCode": "QCALCOV_RECO",
+                            "needCode": "DTHJL_NEED",
+                            "recoNotePrefix": "I have calculated the cover needed by\\n ",
+                            "isSaved": false,
+                            "parentAnswer": false,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Allowable deductions",
+                            "ansType": "Amount_minus",
+                            "quesCode": "QDEDUC",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": true,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Section 4A rebate ",
+                            "ansType": "Amount_minus",
+                            "quesCode": "QABATEMENT",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": true,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Dutiable estate",
+                            "ansType": "Amount_eq_dis",
+                            "quesCode": "QDUTEST",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": true,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        },
+                        {
+                            "screenType": "FNS",
+                            "quesText": "Estate duty payable",
+                            "ansType": "Amount_dis",
+                            "quesCode": "QDUTYPAY",
+                            "needCode": "DTHJL_NEED",
+                            "isSaved": false,
+                            "parentAnswer": true,
+                            "answer": {
+                                "ansCode": "",
+                                "ansValue": ""
+                            },
+                            "answerOptions": [],
+                            "questionList": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "parties": [
+        {
+            "partyType": "Individual",
+            "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__",
+            "sptId": 46889,
+            "partySource": "GCS",
+            "identities": [],
+            "addresses": [],
+            "contactNumbers": [],
+            "emails": [],
+            "familyRelationships": [
+                {
+                    "familyRelation": "SLF"
+                }
+            ],
+            "appRoles": [],
+            "birthDate": "10/04/1977",
+            "age": 47,
+            "gender": "M",
+            "primaryEmploymentInfo": {
+                "occupationCode": "Manager",
+                "professionalMembershipType": []
+            },
+            "name": {
+                "prefixTitle": "MR",
+                "initials": "A",
+                "firstName": "AOHZMOA",
+                "lastName": "LSLOMSLK"
+            },
+            "eligibleBenefits": [],
+            "Relationship": []
+        },
+        {
+            "partyType": "Individual",
+            "partyId": "__3SueYMALxZHA7TqGOYwX-T07q_iMOyRFhL-JIySQMA0__",
+            "bancsBPKey": [],
+            "identities": [
+                {
+                    "idNumber": "8907188478083",
+                    "idType": "National ID",
+                    "idCountryOfIssue": "ZA",
+                    "idIssueDate": "",
+                    "idExpirationDate": "",
+                    "isSACitizen": true
+                }
+            ],
+            "addresses": [],
+            "contactNumbers": [],
+            "emails": [],
+            "bankDetails": [],
+            "adminRequirements": [],
+            "payrollDetails": [],
+            "taxDetails": [],
+            "roles": [],
+            "relationships": [],
+            "communicationProfiles": [],
+            "cessionDetails": [],
+            "familyRelationships": [
+                {
+                    "familyRelation": "SP"
+                }
+            ],
+            "appRoles": [],
+            "birthDate": "18/07/1989",
+            "age": 35,
+            "gender": "M",
+            "professionalMembershipType": [],
+            "maritalInfo": {
+                "maritalStatus": "",
+                "maritalStatusDate": "",
+                "maritalContractType": ""
+            },
+            "name": {
+                "prefixTitle": "MR",
+                "initials": "B",
+                "firstName": "BMUIRVU",
+                "lastName": "MXHPPEHZ",
+                "middleName": "",
+                "preferredName": ""
+            },
+            "role": "Business Owner",
+            "Relationship": [],
+            "isContractingParty": false,
+            "partySource": "GCS"
+        },
+        {
+            "partyType": "Individual",
+            "partyId": "__t-LHBj5EdDcMgafiW52UHf7BBZeyiPCc4deSOQB7ek8__",
+            "bancsBPKey": [],
+            "identities": [
+                {
+                    "idNumber": "1102158666084",
+                    "idType": "National ID",
+                    "idCountryOfIssue": "ZA",
+                    "idIssueDate": "",
+                    "idExpirationDate": "",
+                    "isSACitizen": true
+                }
+            ],
+            "addresses": [],
+            "contactNumbers": [],
+            "emails": [],
+            "bankDetails": [],
+            "adminRequirements": [],
+            "payrollDetails": [],
+            "taxDetails": [],
+            "roles": [],
+            "relationships": [],
+            "communicationProfiles": [],
+            "cessionDetails": [],
+            "familyRelationships": [
+                {
+                    "familyRelation": "NC"
+                }
+            ],
+            "appRoles": [],
+            "birthDate": "15/02/2011",
+            "age": 17,
+            "gender": "M",
+            "professionalMembershipType": [],
+            "maritalInfo": {
+                "maritalStatus": "",
+                "maritalStatusDate": "",
+                "maritalContractType": ""
+            },
+            "name": {
+                "prefixTitle": "MR",
+                "initials": "C",
+                "firstName": "CNFCYSV",
+                "lastName": "XUSOWYQS",
+                "middleName": "",
+                "preferredName": ""
+            },
+            "role": "Business Owner",
+            "Relationship": [],
+            "isContractingParty": false,
+            "partySource": "GCS"
+        },
+        {
+            "partyType": "Individual",
+            "partyId": "__jtjCoHXD-uX6ehTje3d2_mrkZwvJyJJn50WUUf995kY__",
+            "bancsBPKey": [],
+            "identities": [
+                {
+                    "idNumber": "1102248104088",
+                    "idType": "National ID",
+                    "idCountryOfIssue": "ZA",
+                    "idIssueDate": "",
+                    "idExpirationDate": "",
+                    "isSACitizen": true
+                }
+            ],
+            "addresses": [],
+            "contactNumbers": [],
+            "emails": [],
+            "bankDetails": [],
+            "adminRequirements": [],
+            "payrollDetails": [],
+            "taxDetails": [],
+            "roles": [],
+            "relationships": [],
+            "communicationProfiles": [],
+            "cessionDetails": [],
+            "familyRelationships": [
+                {
+                    "familyRelation": "NC"
+                }
+            ],
+            "appRoles": [],
+            "birthDate": "24/02/2011",
+            "age": 16,
+            "gender": "M",
+            "professionalMembershipType": [],
+            "maritalInfo": {
+                "maritalStatus": "",
+                "maritalStatusDate": "",
+                "maritalContractType": ""
+            },
+            "name": {
+                "prefixTitle": "MR",
+                "initials": "D",
+                "firstName": "DYNHUPY",
+                "lastName": "AOYLTYDU",
+                "middleName": "",
+                "preferredName": ""
+            },
+            "role": "Business Owner",
+            "Relationship": [],
+            "isContractingParty": false,
+            "partySource": "GCS"
+        }
+    ],
+    "needRules": [
+        {
+            "funeralCore": [
+                {
+                    "partyRelCode": "SLF",
+                    "allowedCount": 1,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFC",
+                            "externalReference": "FMM",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "SP",
+                    "allowedCount": 3,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFC",
+                            "externalReference": "FSP1",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "CH",
+                    "allowedCount": 99,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFC",
+                            "externalReference": "FCHLD",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "NC",
+                    "allowedCount": 2,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFC",
+                            "externalReference": "FNCHLD1",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "PRNT",
+                    "allowedCount": 4,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFF",
+                            "externalReference": "FP",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "SBLN",
+                    "allowedCount": 4,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFF",
+                            "externalReference": "FS",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "EXT",
+                    "allowedCount": 8,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFF",
+                            "externalReference": "FE",
+                            "isSelected": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "funeralZimele": [
+                {
+                    "partyRelCode": "SLF",
+                    "allowedCount": 1,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFZ",
+                            "externalReference": "FZ",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "SP",
+                    "allowedCount": 1,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFZ",
+                            "externalReference": "FZ",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "CH",
+                    "allowedCount": 99,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFZ",
+                            "externalReference": "FZ",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "NC",
+                    "allowedCount": 0,
+                    "benefitMapList": []
+                },
+                {
+                    "partyRelCode": "PRNT",
+                    "allowedCount": 4,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFZ",
+                            "externalReference": "FZ",
+                            "isSelected": true
+                        }
+                    ]
+                },
+                {
+                    "partyRelCode": "SBLN",
+                    "allowedCount": 0,
+                    "benefitMapList": []
+                },
+                {
+                    "partyRelCode": "EXT",
+                    "allowedCount": 8,
+                    "benefitMapList": [
+                        {
+                            "benefitSetExtRef": "OMPFZ",
+                            "externalReference": "FZ",
+                            "isSelected": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "benefitList": [
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPAD",
+            "externalReference": "AD",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 2000000,
+            "maxAge": 60,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPADD",
+            "externalReference": "ADD",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 2000000,
+            "maxAge": 60,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPBDTH",
+            "externalReference": "BDTH",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 999999999999,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPBOR",
+            "externalReference": "BOR",
+            "minFaceAmount": 6000,
+            "maxFaceAmount": 250000,
+            "maxAge": 60,
+            "minAge": 18
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDI",
+            "externalReference": "DI",
+            "minFaceAmount": 6000,
+            "maxFaceAmount": 250000,
+            "maxAge": 60,
+            "minAge": 18
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHI",
+            "externalReference": "DTHI",
+            "minFaceAmount": 3000,
+            "maxFaceAmount": 9999999999999,
+            "maxAge": 80,
+            "minAge": 18
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHJL",
+            "externalReference": "DTHJL",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 9999999999999,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHSL",
+            "externalReference": "OCCDIS",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 30000000,
+            "maxAge": 60,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHSL",
+            "externalReference": "FIL",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 30000000,
+            "maxAge": 65,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHSL",
+            "externalReference": "DTHSL",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 9999999999,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHSL",
+            "externalReference": "PI",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 4000000,
+            "maxAge": 65,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPDTHSL",
+            "externalReference": "SI",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 6000000,
+            "maxAge": 70,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FMM",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 100000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SP",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FSP1",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 100000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SP",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FSP2",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 100000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SP",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FSP3",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 100000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "EXT",
+            "benefitSetExtRef": "OMPFF",
+            "externalReference": "FE",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 85,
+            "minAge": 1
+        },
+        {
+            "partyRelCode": "SBLN",
+            "benefitSetExtRef": "OMPFF",
+            "externalReference": "FS",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 85,
+            "minAge": 1
+        },
+        {
+            "partyRelCode": "PRNT",
+            "benefitSetExtRef": "OMPFF",
+            "externalReference": "FP",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 85,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPFII",
+            "externalReference": "FII",
+            "minFaceAmount": 3000,
+            "maxFaceAmount": 120000,
+            "maxAge": 65,
+            "minAge": 18
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPFIL",
+            "externalReference": "FIL",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 30000000,
+            "maxAge": 65,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPFUTC",
+            "externalReference": "FUTC",
+            "minFaceAmount": 400000,
+            "maxFaceAmount": 15000000,
+            "maxAge": 55,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPOCCDIS",
+            "externalReference": "OCCDIS",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 30000000,
+            "maxAge": 60,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPPI",
+            "externalReference": "PI",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 4000000,
+            "maxAge": 65,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPRETR",
+            "externalReference": "RETR",
+            "minFaceAmount": 3000,
+            "maxFaceAmount": 30000,
+            "maxAge": 60,
+            "minAge": 18
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPSI",
+            "externalReference": "SI",
+            "minFaceAmount": 100000,
+            "maxFaceAmount": 6000000,
+            "maxAge": 70,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SLF",
+            "benefitSetExtRef": "OMPFZ",
+            "externalReference": "FZ",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "SP",
+            "benefitSetExtRef": "OMPFZ",
+            "externalReference": "FZ",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "CH",
+            "benefitSetExtRef": "OMPFZ",
+            "externalReference": "FZ",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "PRNT",
+            "benefitSetExtRef": "OMPFZ",
+            "externalReference": "FZ",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "EXT",
+            "benefitSetExtRef": "OMPFZ",
+            "externalReference": "FZ",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 30000,
+            "maxAge": 80,
+            "minAge": 15
+        },
+        {
+            "partyRelCode": "CH",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FCHLD",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 50000,
+            "maxAge": 21,
+            "minAge": 1
+        },
+        {
+            "partyRelCode": "NC",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FNCHLD1",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 30000,
+            "maxAge": 18,
+            "minAge": 1
+        },
+        {
+            "partyRelCode": "NC",
+            "benefitSetExtRef": "OMPFC",
+            "externalReference": "FNCHLD2",
+            "minFaceAmount": 5000,
+            "maxFaceAmount": 30000,
+            "maxAge": 18,
+            "minAge": 1
+        }
+    ],
+    "productToUuid": [],
+    "funeralNeedCode": "FUNERAL_NEED",
+    "retrNeedCode": "RETR_NEED",
+    "futureNeedCode": "FUTC_NEED",
+    "borNeedCode": "BOR_NEED",
+    "deathJointNeedCode": "DTHJL_NEED",
+    "sevIllNeedCode": "SEVILL_NEED",
+    "disabilityNeedCode": "DISLS_NEED",
+    "deathCode": "DEATHLS_NEED",
+    "deathIncomeCode": "DEATHINC_NEED",
+    "disabilityIncCode": "DISINC_NEED",
+    "linkedProducts": {},
+    "instanceNumber": "",
+    "srType": "MANUAL",
+    "fnaSource": "MANUAL",
+    "createDate": "30/07/2024",
+    "currency": "R",
+    "primaryPartyRef": {
+        "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+    },
+    "waiverTransaction": [],
+    "fnclPlanBudgetInfo": {
+        "needAnlysSource": "external-needs-analysis",
+        "noNeedAnlysReason": "",
+        "needAnlysDeclaration": false,
+        "planOwnerPartyPef": {
+            "identities": [],
+            "addresses": [],
+            "contactNumbers": [],
+            "emails": [],
+            "familyRelationships": [],
+            "appRoles": [],
+            "eligibleBenefits": [],
+            "relationship": [],
+            "partyId": "__3SueYMALxZHA7TqGOYwX-UwEQWlRodi_lujuzKhlSJc__"
+        },
+        "totalIncome": 100000,
+        "avlblIncome": 40000,
+        "expenses": 60000
+    },
+    "needOperation": "NoChange"
+}
